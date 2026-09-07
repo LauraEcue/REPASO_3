@@ -1,15 +1,15 @@
 class estudiante:
-    def _init_(self, nombre, edad, programa_academico, semestre):
+    def __init__(self, nombre, edad, programa_academico, semestre):
         self.nombre = nombre
         self.edad = edad
         self.programa_academico = programa_academico
         self.semestre = semestre
         
     def describir(self):
-        print (f " Nombre: {self.nombre}"
-        "Edad: {self.edad}"
-        "Programa: {self.programa}"
-        "Semestre: {self. semestre}"
+        print ( f"Nombre:{self.nombre}") 
+        print ( f"Edad: {self.edad}") 
+        print (f"Programa: {self.programa_academico}")
+        print (f"Semestre: {self. semestre}")
 
 
 #probar
