@@ -1,0 +1,17 @@
+class estudiante:
+    def _init_(self, nombre, edad, programa_academico, semestre):
+        self.nombre = nombre
+        self.edad = edad
+        self.programa_academico = programa_academico
+        self.semestre = semestre
+        
+    def describir(self):
+        print (f " Nombre: {self.nombre}"
+        "Edad: {self.edad}"
+        "Programa: {self.programa}"
+        "Semestre: {self. semestre}"
+
+
+#probar
+estudiante1 = estudiante("Laura", "20", "ingenieria informatica", "tercer semestre")
+print(estudiante1.describir())
