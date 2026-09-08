@@ -59,9 +59,46 @@ b = float (input("segundo numero: "))
 print("sumar: ", sumar(a, b))
 print("multiplicar: ", multiplicar(a, b))
 print("restar: ", restar(a, b))
-resultado = dividir
-print
+resultado = dividir (a, b)
+print("Division: ", "no se uede dividir por cero." if resultado is None else resultado)
 
+#ejercicio5
+
+estudiante1 = "ana"
+estudiante2 = "stiven"
+estudiante3 = "laura"
+print(estudiante1, estudiante2, estudiante3)
+print("con muchos estudiantes esto no es practco")
+
+#ejercicio6
+
+estudiantes =[
+    "ana", "laura", "santiago", "sofia"
+]
+
+    print("todos los estudiantes:", estudiantes[])
+    print("primero:", estudiantes[0])
+    print("ultimo:", estudiantes[-1])
+    print("cantidad:", len(estudiantes))
+    estudiantes.append("jeison")
+    estudiantes.remove("ana")
+    buscado = input("nombre a buscar: ")
+
+    encontrado = False
+    for estudiante in estudiantes:
+        if estudiante.lower() == buscado.lower(): 
+            encontrado = True
+            break
+
+    print("Encontrado. "if encontrado else "no encontrado.")
+
+#ejercicio7
+
+def ejercicio_7():
+    notas = [4.1, 3.1, 2.1, 3.7, 4.7]
+    acumulado = 0
+    for nota in notas:
+        
 
 
 
