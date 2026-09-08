@@ -1,0 +1,11 @@
+def ejercicio_1():
+    nombre = input("Nombre: ")
+    edad = input("Edad: ")
+    programa = input("Programa: ")
+    promedio = float(input("Promedio: "))
+
+    print("\nDatos:")
+    print(nombre, edad, programa, promedio)
+    print(type(nombre), type(edad), type(programa), type(promedio))
+
+ejercicio_1()
