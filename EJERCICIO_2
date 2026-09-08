@@ -1,0 +1,68 @@
+def ejercicio_2():
+    promedio = float(input("Promedio: "))
+    if (promedio >= 0.0 and promedio <= 5.0):
+        if (promedio >= 3.0):
+            print("El estudiante aprobo.")
+
+        else:
+            print("El estudiante no aprobo.")
+
+    else:
+        print("La nota no es valida.")
+
+
+def ejercicio_3():
+    print("pares: ")
+
+i=1
+#while true:
+    print(i, end=" ")
+    i +=1
+    if i > 100:
+        break
+
+i
+while i<=100 :
+    if i % 2 == 0:
+        print("par")
+
+    else:
+        print ("impares")
+
+for n in range(1, 101):
+    if n % 5 == 0:
+        print(n, end=" ")
+
+
+
+#ejercicio4
+
+def sumar (a, b):
+    return a + b
+
+def restar (a, b):
+    return a - b
+
+def multiplicar (a, b):
+    return a * b
+
+def dividir (a, b):
+    if b == 0:
+        return None
+    return a / b
+
+
+#calculadora
+
+a = float (input("primer numero: "))
+b = float (input("segundo numero: "))
+print("sumar: ", sumar(a, b))
+print("multiplicar: ", multiplicar(a, b))
+print("restar: ", restar(a, b))
+resultado = dividir
+print
+
+
+
+
+

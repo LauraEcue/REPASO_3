@@ -9,3 +9,15 @@ def ejercicio_1():
     print(type(nombre), type(edad), type(programa), type(promedio))
 
 ejercicio_1()
+
+def ejercicio_2():
+    promedio = float(input("Promedio: "))
+    if (promedio >= 0.0 and promedio <= 5.0):
+        if (promedio >= 3.0):
+            print("El estudiante aprobo.")
+
+        else:
+            print("El estudiante no aprobo.")
+
+    else:
+        print("La nota no es valida.")
